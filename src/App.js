@@ -33,7 +33,8 @@ class App extends Component {
                     <h1 className="App-title">Welcome to the event planner extravaganza</h1>
                 </header>
                 <p className="App-intro">
-                    {console.log(this.state.data.events)}
+                    <ul><a href={this.state.data.events}>events</a></ul>
+                    <ul><a href={this.state.data.people}>people</a></ul>
                 </p>
             </div>
         );
